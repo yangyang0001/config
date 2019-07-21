@@ -9,3 +9,8 @@ zuul:
       ### 以 /app-order/访问转发到订单服务
       path: /app-order/**
       serviceId: app-order
+    api-c:
+      ### 以 /app-order-demo/访问转发到订单服务
+      path: /app-order/**
+      serviceId: app-order
+   
