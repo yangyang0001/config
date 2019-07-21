@@ -11,6 +11,6 @@ zuul:
       serviceId: app-order
     api-c:
       ### 以 /app-order-demo/访问转发到订单服务
-      path: /app-order/**
+      path: /app-order-demo/**
       serviceId: app-order
    
